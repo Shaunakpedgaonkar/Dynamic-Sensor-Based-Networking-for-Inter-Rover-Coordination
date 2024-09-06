@@ -1,1 +1,1 @@
-# Shaunakpedgaonkar-Dynamic-Sensor-Based-Networking-for-Inter-Rover-Coordination
+Dynamic-Sensor-Based-Networking-for-Inter-Rover-Coordination
