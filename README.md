@@ -29,13 +29,17 @@ Implements encryption and decryption functionality using base64 encoding and XOR
 Sensors and Rover Types
 Each rover is equipped with specialized sensors for data collection. Below is an overview of the different types of rovers and their sensors:
 
-Rover	Sensors
-Atmospheric Rover	Health, Location, Atmospheric Gas, Wind Speed, Temperature, Humidity, UV Radiation, Dust Particles, Barometer
-Biological Rover	Health, Location, Microbial Detection, UV Light, Organic Compound, Fluorescence, Regolith, Thermal Gradient
-Geological Rover	Health, Location, Rock Spectrometer, Soil Composition, Subsurface Radar, Seismic Vibration, Mineralogy Camera, Magnetic Field
-Navigation Rover	Health, Location, High Gain Antenna, Optical Navigation Camera, Star Tracker, Radar Altimeter, Environmental Sensors
-Weather Rover	Health, Location, Weather Station, Thermal Imaging, Infrared Spectrometer, Cloud Particle Analysis, Solar Irradiance, Atmospheric Electricity
-Network Topology
+## Sensors and Rover Types
+
+| **Rover**           | **Sensors**                                                                                                                                           |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Atmospheric Rover** | Health, Location, Atmospheric Gas, Wind Speed, Temperature, Humidity, UV Radiation, Dust Particles, Barometer                                       |
+| **Biological Rover**  | Health, Location, Microbial Detection, UV Light, Organic Compound, Fluorescence, Regolith, Thermal Gradient                                         |
+| **Geological Rover**  | Health, Location, Rock Spectrometer, Soil Composition, Subsurface Radar, Seismic Vibration, Mineralogy Camera, Magnetic Field                      |
+| **Navigation Rover**  | Health, Location, High Gain Antenna, Optical Navigation Camera, Star Tracker, Radar Altimeter, Environmental Sensors                               |
+| **Weather Rover**     | Health, Location, Weather Station, Thermal Imaging, Infrared Spectrometer, Cloud Particle Analysis, Solar Irradiance, Atmospheric Electricity       |
+
+Network topology
 This project transitioned from a centralized server model to a decentralized, peer-to-peer network due to concerns about a single point of failure, scalability issues, and latency.
 
 Within a Network:
